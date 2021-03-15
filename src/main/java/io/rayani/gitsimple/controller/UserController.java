@@ -17,4 +17,11 @@ public class UserController {
     public void delete(){
         System.out.println("lying");
     }
+    @PutMapping
+    public void update(){
+        if (true){
+            //TODO something
+        }
+        System.out.println("Hello World");
+    }
 }
